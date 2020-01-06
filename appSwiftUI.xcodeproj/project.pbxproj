@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		592967F423C1BE89006AF785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592967F323C1BE89006AF785 /* AppDelegate.swift */; };
 		592967F623C1BE89006AF785 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592967F523C1BE89006AF785 /* SceneDelegate.swift */; };
-		592967F823C1BE89006AF785 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592967F723C1BE89006AF785 /* ContentView.swift */; };
+		592967F823C1BE89006AF785 /* DriverDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592967F723C1BE89006AF785 /* DriverDetail.swift */; };
 		592967FA23C1BE8B006AF785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 592967F923C1BE8B006AF785 /* Assets.xcassets */; };
 		592967FD23C1BE8B006AF785 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 592967FC23C1BE8B006AF785 /* Preview Assets.xcassets */; };
 		5929680023C1BE8B006AF785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592967FE23C1BE8B006AF785 /* LaunchScreen.storyboard */; };
 		5929680B23C1BE8B006AF785 /* appSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929680A23C1BE8B006AF785 /* appSwiftUITests.swift */; };
 		5929681623C1BE8B006AF785 /* appSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929681523C1BE8B006AF785 /* appSwiftUIUITests.swift */; };
+		5929682423C1BFCA006AF785 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929682323C1BFCA006AF785 /* Driver.swift */; };
+		5929682623C2EDE2006AF785 /* StatsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929682523C2EDE2006AF785 /* StatsRow.swift */; };
+		5929682823C2F638006AF785 /* DriverRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929682723C2F638006AF785 /* DriverRow.swift */; };
+		5929682A23C2FE30006AF785 /* DriversList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929682923C2FE30006AF785 /* DriversList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,7 @@
 		592967F023C1BE89006AF785 /* appSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		592967F323C1BE89006AF785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		592967F523C1BE89006AF785 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		592967F723C1BE89006AF785 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		592967F723C1BE89006AF785 /* DriverDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverDetail.swift; sourceTree = "<group>"; };
 		592967F923C1BE8B006AF785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		592967FC23C1BE8B006AF785 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		592967FF23C1BE8B006AF785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		5929681123C1BE8B006AF785 /* appSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5929681523C1BE8B006AF785 /* appSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appSwiftUIUITests.swift; sourceTree = "<group>"; };
 		5929681723C1BE8B006AF785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5929682323C1BFCA006AF785 /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		5929682523C2EDE2006AF785 /* StatsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsRow.swift; sourceTree = "<group>"; };
+		5929682723C2F638006AF785 /* DriverRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverRow.swift; sourceTree = "<group>"; };
+		5929682923C2FE30006AF785 /* DriversList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriversList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +109,11 @@
 			children = (
 				592967F323C1BE89006AF785 /* AppDelegate.swift */,
 				592967F523C1BE89006AF785 /* SceneDelegate.swift */,
-				592967F723C1BE89006AF785 /* ContentView.swift */,
+				592967F723C1BE89006AF785 /* DriverDetail.swift */,
+				5929682523C2EDE2006AF785 /* StatsRow.swift */,
+				5929682323C1BFCA006AF785 /* Driver.swift */,
+				5929682723C2F638006AF785 /* DriverRow.swift */,
+				5929682923C2FE30006AF785 /* DriversList.swift */,
 				592967F923C1BE8B006AF785 /* Assets.xcassets */,
 				592967FE23C1BE8B006AF785 /* LaunchScreen.storyboard */,
 				5929680123C1BE8B006AF785 /* Info.plist */,
@@ -267,9 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5929682A23C2FE30006AF785 /* DriversList.swift in Sources */,
+				5929682823C2F638006AF785 /* DriverRow.swift in Sources */,
 				592967F423C1BE89006AF785 /* AppDelegate.swift in Sources */,
 				592967F623C1BE89006AF785 /* SceneDelegate.swift in Sources */,
-				592967F823C1BE89006AF785 /* ContentView.swift in Sources */,
+				592967F823C1BE89006AF785 /* DriverDetail.swift in Sources */,
+				5929682423C1BFCA006AF785 /* Driver.swift in Sources */,
+				5929682623C2EDE2006AF785 /* StatsRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
