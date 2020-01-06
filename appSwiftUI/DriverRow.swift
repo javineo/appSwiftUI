@@ -4,7 +4,7 @@
 //
 //  Created by Javi on 06/01/2020.
 //  Copyright © 2020 Javi. All rights reserved.
-//
+// Por Javi
 
 import SwiftUI
 
@@ -24,7 +24,7 @@ struct DriverRow: View {
                 .padding(.leading, 10)
                 .font(.largeTitle)
             Spacer()
-            
+        
         }
     }
 }
